@@ -1,6 +1,4 @@
-# ITNSA ID
-
-IT Network Systems Administration - Indonesia
+All files related to IT Network Systems Administration (Indonesia).
 
 - [LKSN 2022](https://github.com/itnsa-id/itnsa-id.github.io/tree/main/lksn-2022)
 - [LKSN 2021](https://github.com/itnsa-id/itnsa-id.github.io/tree/main/lksn-2021)
