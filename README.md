@@ -1,4 +1,4 @@
-All files related to IT Network Systems Administration (Indonesia).
+
 
 - [LKSN 2024](https://github.com/itnsa-id/itnsa-id.github.io/tree/main/lksn2024)
 - [LKSN 2023](https://github.com/itnsa-id/itnsa-id.github.io/tree/main/lksn2023)
