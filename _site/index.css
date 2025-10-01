@@ -1,0 +1,53 @@
+html,
+body {
+	font-family: TX-02, monospace;
+	max-width: 60rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin: auto;
+	padding: 0.5rem 1rem;
+}
+
+.box {
+	border: 1px solid #888;
+	box-shadow: 5px 5px #ccc;
+	padding: 0.5rem 1rem;
+}
+
+.tree {
+	--spacing: 1.5rem;
+	--radius: 10px;
+}
+
+.tree li {
+	display: block;
+	position: relative;
+	padding-left: calc(2 * var(--spacing) - var(--radius) - 2px);
+}
+
+.tree ul {
+	margin-left: calc(var(--radius) - var(--spacing));
+	padding-left: 0;
+}
+
+.tree ul li {
+	border-left: 1px solid #888;
+}
+
+.tree ul li:last-child {
+	border-color: transparent;
+}
+
+.tree ul li::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: calc(var(--spacing) / -2);
+	left: -2px;
+	width: calc(var(--spacing) + 2px);
+	height: calc(var(--spacing) + 1px);
+	border: 1px solid #888;
+	border-width: 0 0 2px 2px;
+}
